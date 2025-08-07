@@ -42,15 +42,17 @@ else:
 sapaan_keywords = ["hai", "hi", "halo", "hallo", "helo"]
 sapaan_response = {
     "answer": (
-        "Hai hai! 🤖 Si Tegar siap bantu kamu, tanya aja yuk!\n"
-        "Berikut beberapa hal yang bisa Tegar bantu:\n"
-        "• Siapa Tegar?\n"
-        "• Apa keahlian Tegar?\n"
-        "• Bisa lihat biodata Tegar?\n"
-        "• Apakah Tegar tersedia untuk freelance?\n"
-        "• Layanan apa saja yang ditawarkan Tegar?"
+        "Hai! 👋 Selamat datang di <strong>MalakaTech Assistant</strong>.<br>"
+        "Saya di sini untuk membantu pertanyaan seputar layanan kami.<br><br>"
+        "Berikut beberapa contoh yang bisa kamu tanyakan:<br>"
+        "• Apa itu MalakaTech?<br>"
+        "• Layanan apa saja yang tersedia?<br>"
+        "• Apakah MalakaTech menerima freelance atau proyek?<br>"
+        "• Bagaimana cara kerja chatbot ini?<br>"
+        "• Bagaimana cara menghubungi tim MalakaTech?"
     )
 }
+
 
 # API Endpoint untuk chatbot FAQ
 @app.get("/chatbot")
