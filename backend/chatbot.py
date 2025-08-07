@@ -40,15 +40,16 @@ else:
 
 # Tambahkan list sapaan
 sapaan_keywords = ["hai", "hi", "halo", "hallo", "helo"]
+
 sapaan_response = {
     "answer": (
-        "Hai! 👋 Selamat datang di <strong>MalakaTech Assistant</strong>.<br>"
-        "Saya di sini untuk membantu pertanyaan seputar layanan kami.<br><br>"
-        "Berikut beberapa contoh yang bisa kamu tanyakan:<br>"
-        "• Apa itu MalakaTech?<br>"
-        "• Layanan apa saja yang tersedia?<br>"
-        "• Apakah MalakaTech menerima freelance atau proyek?<br>"
-        "• Bagaimana cara kerja chatbot ini?<br>"
+        "Hai! 👋 Selamat datang di *MalakaTech Assistant*.\n"
+        "Saya di sini untuk membantu pertanyaan seputar layanan kami.\n\n"
+        "Berikut beberapa contoh yang bisa kamu tanyakan:\n"
+        "• Apa itu MalakaTech?\n"
+        "• Layanan apa saja yang tersedia?\n"
+        "• Apakah MalakaTech menerima freelance atau proyek?\n"
+        "• Bagaimana cara kerja chatbot ini?\n"
         "• Bagaimana cara menghubungi tim MalakaTech?"
     )
 }
