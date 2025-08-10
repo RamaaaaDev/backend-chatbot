@@ -80,4 +80,4 @@ def chatbot(q: str = Query(..., min_length=2)):
     if similarities[best_match_idx] > 0.1:
         return {"question": q, "answer": faq_data[best_match_idx]["answer"]}
 
-    return {"answer": "Maaf, Tegar belum mengerti pertanyaan Anda."}
+    return {"answer": "Maaf, Saya belum mengerti pertanyaan Anda."}

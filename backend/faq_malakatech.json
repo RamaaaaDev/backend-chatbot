@@ -1,43 +1,229 @@
 [
-    {
-      "question": "Apa itu Malakatech?",
-      "answer": "Malakatech adalah perusahaan web developer berbadan hukum PT. Malaka Teknologi Indonesia yang telah melayani lebih dari 800 perusahaan di seluruh Indonesia."
-    },
-    {
-      "question": "Apa itu website?",
-      "answer": "Website adalah media promosi online untuk memperkenalkan, menjual, dan mengiklankan produk, jasa, atau perusahaan secara global melalui internet."
-    },
-    {
-      "question": "Mengapa saya harus memiliki website?",
-      "answer": "Di era Revolusi Industri 4.0, memiliki website adalah kewajiban bagi pelaku bisnis dari skala kecil hingga besar. Tanpa website, peluang untuk berkembang sangat terbatas."
-    },
-    {
-      "question": "Apakah saya bisa berjualan dan melakukan transaksi melalui website?",
-      "answer": "Ya, Anda bisa. Malakatech menyediakan berbagai tema dan fitur yang mendukung pengelolaan produk serta transaksi penjualan secara online."
-    },
-    {
-      "question": "Bagaimana jika saya ragu untuk melakukan pembayaran?",
-      "answer": "Anda tidak perlu khawatir karena pembayaran bisa dilakukan melalui marketplace terpercaya seperti Shopee, Bukalapak, dan Tokopedia."
-    },
-    {
-      "question": "Apakah website saya bisa diakses kapan saja dan dari perangkat apa pun?",
-      "answer": "Tentu. Website yang dibuat Malakatech menggunakan tema yang mobile-friendly dan dapat diakses optimal di berbagai perangkat, termasuk smartphone dan tablet."
-    },
-    {
-      "question": "Jika saya mengalami kesulitan dalam mengelola website, apakah ada bantuan?",
-      "answer": "Ya, Malakatech menyediakan panduan digital berupa artikel dan video. Selain itu, tersedia layanan Jasa Pembuatan Website yang mengurus semuanya untuk Anda."
-    },
-    {
-      "question": "Saya sudah memiliki domain sendiri, apakah tetap bisa menggunakan layanan Malakatech?",
-      "answer": "Bisa. Anda dapat menggunakan domain milik sendiri selama diarahkan ke hosting Malakatech. Untuk kemudahan, Anda juga bisa mentransfer domain ke layanan Malakatech."
-    },
-    {
-      "question": "Apakah Malakatech menyediakan layanan untuk rumah sakit?",
-      "answer": "Ya, Malakatech menyediakan layanan pembuatan website untuk rumah sakit dengan fitur tambahan seperti informasi pelayanan, integrasi media sosial, toko online, backlink, dan setting iklan digital."
-    },
-    {
-      "question": "Apa saja fitur unggulan website rumah sakit dari Malakatech?",
-      "answer": "Fitur unggulannya meliputi pelayanan pelanggan, media sosial, e-commerce, backlink ke ribuan situs, serta dukungan untuk iklan digital seperti Google dan Meta Ads."
-    }
-  ]
-  
+  {
+    "question": "Apa itu Malakatech?",
+    "answer": "Malakatech adalah perusahaan web developer berbadan hukum PT. Malaka Teknologi Indonesia yang telah melayani lebih dari 800 perusahaan di seluruh Indonesia."
+  },
+  {
+    "question": "Apa keunggulan MalakaTech dibanding penyedia jasa lain?",
+    "answer": "Fokus pada hasil bisnis, bukan sekadar output teknis. Kami mengutamakan UI/UX yang rapi, performa dan keamanan, proses yang transparan, serta dukungan purna jual (support & maintenance). Setiap proyek diawali dengan discovery singkat agar solusi yang diusulkan tepat sasaran."
+  },
+  {
+    "question": "Apakah MalakaTech melayani klien di seluruh Indonesia?",
+    "answer": "Ya. Proses dapat dilakukan sepenuhnya online (meeting, dokumentasi, pelaporan). Untuk kebutuhan khusus, pertemuan offline dapat dijadwalkan sesuai ketersediaan."
+  },
+  {
+    "question": "Apakah MalakaTech menerima proyek kustom di luar daftar layanan?",
+    "answer": "Bisa. Sampaikan kebutuhan Anda—kami akan menilai ruang lingkup dan memberi rekomendasi solusi terbaik, termasuk estimasi waktu serta biaya."
+  },
+  {
+    "question": "Layanan apa saja yang tersedia?",
+    "answer": "MalakaTech menyediakan rangkaian layanan digital terpadu yang dirancang untuk membantu mengoptimalkan kinerja dan pertumbuhan bisnis Anda. Setiap layanan kami dikembangkan dengan standar kualitas tinggi, teknologi terkini, dan pendekatan yang disesuaikan dengan kebutuhan spesifik perusahaan Anda. Layanan kami:\n1. Jasa Pembuatan Website. \n2. Jasa SEO Organik. \n3. Jasa Iklan Google Ads. \n4. Jasa Revisi Website. \n5. Jasa Kelola Website. \n6. Jasa Sosial Media. \n7. Jasa Desain Company Profile. \n8. Jasa Titik Google Map. \n9. Jasa Kelola Server."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu website?",
+    "answer": "Website adalah media promosi online untuk memperkenalkan, menjual, dan mengiklankan produk, jasa, atau perusahaan secara global melalui internet."
+  },
+  {
+    "question": "Mengapa saya harus memiliki website?",
+    "answer": "Di era Revolusi Industri 4.0, memiliki website adalah kewajiban bagi pelaku bisnis dari skala kecil hingga besar. Tanpa website, peluang untuk berkembang sangat terbatas."
+  },
+  {
+    "question": "Apakah saya bisa berjualan dan melakukan transaksi melalui website?",
+    "answer": "Ya, Anda bisa. Malakatech menyediakan berbagai tema dan fitur yang mendukung pengelolaan produk serta transaksi penjualan secara online."
+  },
+  {
+    "question": "Apakah website saya bisa diakses kapan saja dan dari perangkat apa pun?",
+    "answer": "Tentu. Website yang dibuat Malakatech menggunakan tema yang mobile-friendly dan dapat diakses optimal di berbagai perangkat, termasuk smartphone dan tablet."
+  },
+  {
+    "question": "Jika saya mengalami kesulitan dalam mengelola website, apakah ada bantuan?",
+    "answer": "Ya, Malakatech menyediakan panduan digital berupa artikel dan video. Selain itu, tersedia layanan Jasa Pembuatan Website yang mengurus semuanya untuk Anda."
+  },
+  {
+    "question": "Saya sudah memiliki domain sendiri, apakah tetap bisa menggunakan layanan Malakatech?",
+    "answer": "Bisa. Anda dapat menggunakan domain milik sendiri selama diarahkan ke hosting Malakatech. Untuk kemudahan, Anda juga bisa mentransfer domain ke layanan Malakatech."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Pembuatan Web?",
+    "answer": "Jasa Pembuatan Web dari MalakaTech menyediakan solusi ‘terima beres’ dengan harga yang variatif dan fitur lengkap. Mulai dari desain responsif hingga sistem CMS—semua disiapkan agar Anda bisa memiliki website profesional tanpa ribet. Lebih dari 1.000+ bisnis telah mempercayakan kebutuhan website-nya kepada kami."
+  },
+  {
+    "question": "Berapa biaya pembuatan website di MalakaTech?",
+    "answer": "Biaya bergantung pada kompleksitas (jumlah halaman, fitur khusus, integrasi pembayaran, multi-bahasa, dsb.). Kami biasanya menawarkan beberapa paket agar Anda bisa memilih sesuai kebutuhan dan anggaran. Detail harga final diberikan setelah discovery/brief singkat."
+  },
+  {
+    "question": "Berapa lama waktu pengerjaan pembuatan website?",
+    "answer": "Rata-rata proyek standar memerlukan 2–6 minggu, tergantung ruang lingkup, ketersediaan materi (logo/konten), dan jumlah revisi. Proyek custom atau e-commerce biasanya lebih lama."
+  },
+  {
+    "question": "Apakah website sudah mobile-friendly dan SEO-ready?",
+    "answer": "Ya. Kami mengutamakan desain responsif, struktur semantik yang baik, kecepatan muat, dan praktik SEO on-page dasar (title, meta, heading, sitemap, schema yang relevan)."
+  },
+  {
+    "question": "Apakah saya bisa memilih desain sendiri atau harus template?",
+    "answer": "Keduanya bisa. Anda dapat memilih dari desain yang kami rekomendasikan atau memesan desain kustom berdasarkan brand guideline Anda."
+  },
+  {
+    "question": "Apakah MalakaTech menyediakan domain dan hosting?",
+    "answer": "Bisa. Kami dapat membantu pengadaan domain/hosting atau bekerja dengan penyedia yang sudah Anda miliki. Kami juga memberi rekomendasi spesifikasi server yang sesuai kebutuhan."
+  },
+  {
+    "question": "Apakah ada garansi dan revisi setelah website selesai?",
+    "answer": "Terdapat masa garansi terbatas untuk bug/issue teknis pasca-live sesuai perjanjian proyek. Jumlah revisi desain/konten diatur di proposal agar proses terkelola dengan baik."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa SEO Organik?",
+    "answer": "Jasa SEO Organik MalakaTech membantu meningkatkan visibilitas situs secara alami dengan teknik optimasi konten, struktur situs, dan backlink berkualitas—tanpa bergantung pada iklan berbayar. Cocok untuk yang ingin peringkat tinggi di Google secara berkelanjutan."
+  },
+  {
+    "question": "Apakah strategi SEO yang digunakan aman?",
+    "answer": "Ya, kami menerapkan praktik white-hat yang sesuai pedoman mesin pencari untuk menjaga keberlanjutan dan menghindari penalti."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Iklan Google Ads?",
+    "answer": "Layanan Iklan Google Ads dari MalakaTech memungkinkan bisnis Anda muncul di Google Search, Banner, bahkan YouTube dengan strategi targeting yang tepat. Dijalankan dengan pengelolaan anggaran dan optimasi untuk meraih hasil maksimal dan ROI yang optimal."
+  },
+  {
+    "question": "Berapa minimal budget untuk Google Ads?",
+    "answer": "Budget fleksibel sesuai target bisnis dan kompetisi kata kunci. Kami akan merekomendasikan besaran awal yang realistis dan dapat ditingkatkan berdasarkan performa."
+  },
+  {
+    "question": "Apakah biaya iklan sudah termasuk fee pengelolaan?",
+    "answer": "Biasanya dipisah: ada biaya iklan (dibayar ke Google) dan fee pengelolaan (dibayar ke MalakaTech). Skema dan periode penagihan dijelaskan transparan di proposal."
+  },
+  {
+    "question": "Apakah iklan bisa tayang di YouTube dan lokasi tertentu?",
+    "answer": "Bisa. Penayangan dapat diatur di Search, Display, YouTube, dan ditargetkan berdasarkan lokasi (negara/kota/radius), demografi, minat, serta jam tayang tertentu."
+  },
+  {
+    "question": "Bagaimana mengukur keberhasilan iklan?",
+    "answer": "Kami menggunakan KPI yang relevan (CTR, CPC, konversi, CPA/ROAS), menyiapkan pelacakan konversi, dan memberikan laporan rutin dengan insight optimasi."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Revisi Website?",
+    "answer": "Jasa Revisi Website adalah layanan untuk memperbaharui konten, desain, atau fitur yang sudah ada di website Anda. Tim kami siap membantu menyesuaikan tampilan dan fungsi sesuai perkembangan bisnis atau tren digital terkini."
+  },
+  {
+    "question": "Apakah MalakaTech bisa revisi website buatan pihak lain?",
+    "answer": "Bisa, selama akses teknis memungkinkan dan teknologi yang digunakan kompatibel. Kami akan melakukan audit singkat terlebih dahulu."
+  },
+  {
+    "question": "Bagaimana skema biaya revisi?",
+    "answer": "Biasanya per scope (paket) atau per jam untuk pekerjaan kecil. Kami ajukan estimasi setelah memahami prioritas revisi Anda."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Kelola Website?",
+    "answer": "Jasa Kelola Website mencakup maintenance rutin, pembaruan konten, pengamanan situs, dan optimasi performa. Ini membantu Anda fokus berbisnis tanpa khawatir soal teknis operasional website."
+  },
+  {
+    "question": "Apa itu Jasa Kelola Website (maintenance)?",
+    "answer": "Layanan pemeliharaan berkala: update sistem/ plugin/tema, perbaikan minor, pemantauan uptime, backup rutin, patch keamanan, dan optimasi performa. Bisa termasuk update konten sesuai kebutuhan."
+  },
+  {
+    "question": "Seberapa sering update dilakukan?",
+    "answer": "Disesuaikan paket dan kebutuhan. Umumnya ada siklus update teknis bulanan/dua-mingguan, plus update konten berdasarkan kalender yang disepakati."
+  },
+  {
+    "question": "Apakah keamanan website juga dipantau?",
+    "answer": "Ya. Kami menerapkan praktik hardening, patch keamanan, dan monitoring dasar. Untuk kebutuhan enterprise, opsi monitoring lanjutan dapat ditambahkan."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Sosial Media?",
+    "answer": "Jasa Sosial Media dari MalakaTech mencakup pembuatan konten, penjadwalan posting, dan reporting performa media sosial. Dirancang untuk memperkuat brand awareness dan engagement lewat platform sosial seperti Instagram, Facebook, dan lainnya."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Desain Company Profile?",
+    "answer": "Jasa Desain Company Profile menawarkan pembuatan profil perusahaan yang profesional, multi-halaman, dikirim dalam format PDF beserta file mentahan—ideal untuk presentasi bisnis, pitching, atau kebutuhan branding lainnya."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Titik Google Map?",
+    "answer": "Jasa Titik Google Map membantu mendaftarkan dan memverifikasi lokasi bisnis Anda di Google Maps. Tersedia untuk memastikan pelanggan dapat menemukan usaha Anda dengan mudah dan meningkatkan kredibilitas digital."
+  },
+
+
+
+
+
+  {
+    "question": "Apa itu Jasa Kelola Server?",
+    "answer": "Jasa Kelola Server meliputi pengaturan VPS, pengamanan server, dan maintenance berkala. Layanan ini menjamin sistem web Anda tetap stabil dan aman — sehingga Anda bisa tenang dalam mengembangkan bisnis secara online."
+  },
+
+
+
+
+
+  {
+    "question": "Bagaimana jika saya ragu untuk melakukan pembayaran?",
+    "answer": "Anda tidak perlu khawatir karena pembayaran bisa dilakukan melalui marketplace terpercaya seperti Shopee, Bukalapak, dan Tokopedia."
+  },
+  {
+    "question": "Metode pembayaran apa saja yang tersedia?",
+    "answer": "Transfer bank dan opsi lain yang tersedia di Indonesia. Rincian dan instruksi pembayaran dicantumkan di invoice resmi."
+  },
+  {
+    "question": "Apakah harus DP?",
+    "answer": "Umumnya diperlukan uang muka (DP) untuk memulai pekerjaan, dengan sisa pelunasan mengikuti milestone yang disepakati. Skema dapat disesuaikan dengan paket."
+  },
+  {
+    "question": "Apakah harga sudah termasuk pajak?",
+    "answer": "Ketentuan pajak (mis. PPN) dicantumkan jelas pada proposal atau invoice. Kami pastikan administrasi rapi dan transparan."
+  },
+  {
+    "question": "Siapa pemilik source code dan aset setelah proyek selesai?",
+    "answer": "Secara default, hak penggunaan diberikan kepada klien. Kepemilikan penuh source code/desain/asset dapat diatur sesuai perjanjian. Lisensi pihak ketiga mengikuti ketentuan masing-masing."
+  },
+  {
+    "question": "Apakah ada pelatihan penggunaan setelah proyek selesai?",
+    "answer": "Ya. Kami menyediakan sesi handover & training singkat (online) disertai dokumentasi dasar, sehingga tim Anda mudah mengelola sistem/website ke depannya."
+  },
+  {
+    "question": "Bagaimana dukungan purna jual (support) diberikan?",
+    "answer": "Selama masa garansi/maintenance, Anda dapat menghubungi tim support untuk melaporkan kendala. Waktu respons dan cakupan perbaikan mengikuti paket/kontrak yang disepakati."
+  }
+]
