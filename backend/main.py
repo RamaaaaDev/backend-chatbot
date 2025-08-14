@@ -12,43 +12,40 @@ app = FastAPI()
 # --- CORS ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # ganti dengan domain frontend kamu di produksi
+    allow_origins=["https://malakatech.com"],   
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 # --- Path & Config ---
-SRC_FAQ_PATH = Path("faq_malakatech.json")            # sumber FAQ (repo)
+SRC_FAQ_PATH = Path("faq_data.json")            # sumber FAQ (repo)
 ARTIFACT_DIR = Path(os.getenv("MODEL_DIR", "artifacts"))
 ARTIFACT_DIR.mkdir(exist_ok=True)
 VEC_PATH = ARTIFACT_DIR / "tfidf_vectorizer.joblib"
 X_PATH   = ARTIFACT_DIR / "tfidf_matrix.joblib"
 FAQ_CACHE_PATH = ARTIFACT_DIR / "faq_cache.json"
-RELOAD_TOKEN = os.getenv("RELOAD_TOKEN")  # set di Railway env var kalau pakai /reload
+RELOAD_TOKEN = os.getenv("RELOAD_TOKEN") 
 
-# --- Helpers ---
+# --- Helpers Method ---
 def text_clean(s: str) -> str:
     s = s.lower()
-    s = re.sub(r"[^\w\s]", " ", s)  # hapus tanda baca
+    s = re.sub(r"[^\w\s]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
 def load_faq_source():
     try:
         data = json.loads(SRC_FAQ_PATH.read_text(encoding="utf-8"))
-        # fallback minimal bila kosong
         return data if data else [{"question": "default", "answer": "default"}]
     except Exception as e:
         print(f"Error loading FAQ data: {e}")
         return [{"question": "default", "answer": "default"}]
 
 def train_and_save():
-    """Dipakai HANYA jika artefak belum ada (first run) atau saat reload manual."""
     faq_data = load_faq_source()
     questions_clean = [text_clean(item["question"]) for item in faq_data]
 
-    # TF-IDF (bisa disetel sesuai kebutuhan)
     vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=1)
     X = vectorizer.fit_transform(questions_clean)
 
@@ -66,7 +63,6 @@ def load_artifacts():
     return vectorizer, X, faq_data
 
 def ensure_model_loaded():
-    """Load artefak jika ada; latih dulu kalau belum ada (sekali saja)."""
     if not artifacts_exist():
         train_and_save()
     vec, X, faq = load_artifacts()
@@ -77,7 +73,7 @@ def ensure_model_loaded():
 def _startup():
     app.state.vectorizer, app.state.X, app.state.faq = ensure_model_loaded()
 
-# --- Sapaan ---
+# --- Greetings ---
 SAPAAAN = {"hai", "hi", "halo", "hallo", "helo"}
 SAPAAAN_RESPONSE = {
     "answer": (
@@ -86,7 +82,7 @@ SAPAAAN_RESPONSE = {
         "Contoh:\n"
         "• Apa itu MalakaTech?\n"
         "• Layanan apa saja yang tersedia?\n"
-        "• Kenapa harus memilih tim malakatech?"
+        "• Kenapa harus memilih malakatech?"
     )
 }
 
@@ -117,7 +113,6 @@ def chatbot(q: str = Query(..., min_length=2)):
         }
     return {"answer": "Maaf, Saya belum mengerti pertanyaan Anda."}
 
-# --- Opsional: Reload artefak setelah update faq_malakatech.json ---
 @app.post("/reload")
 def reload_model(x_admin_token: str | None = Header(default=None, alias="X-ADMIN-TOKEN")):
     if not RELOAD_TOKEN:
