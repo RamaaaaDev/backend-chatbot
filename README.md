@@ -1,7 +1,7 @@
 
-# MalakaTech Assistant — FAQ Retrieval API (FastAPI + TF-IDF)
+# Chatbot Assistant — FAQ Retrieval API (FastAPI + TF-IDF)
 
-This is the backend repository for a FastAPI-based question-answering system about MalakaTech. It responds to user queries using an FAQ stored as a dictionary and applies TF-IDF with cosine similarity for matching. The model and artifacts are loaded at startup for fast responses, and it supports hot-reloading the FAQ via a protected endpoint.
+This is the backend repository for a FastAPI-based question-answering system. It responds to user queries using an FAQ stored as a dictionary and applies TF-IDF with cosine similarity for matching. The model and artifacts are loaded at startup for fast responses, and it supports hot-reloading the FAQ via a protected endpoint.
 
 ## Features
 
@@ -60,3 +60,8 @@ async function ask(q) {
 ask("What is MalakaTech?").then(console.log).catch(console.error);
 
 ```
+
+
+
+## Credits
+This project was designed and developed by [tegar Ramadhan](https://www.instagram.com/tegar_361) as the back-end for a chatbot. 
